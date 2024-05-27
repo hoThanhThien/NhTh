@@ -1,0 +1,43 @@
+/* Apply a global style for the body */
+body {
+    font-family: Arial, sans-serif; /* Use a clean and readable font */
+    text-align: center; /* Center-align text */
+    background-color: #f0f8ff; /* Light blue background for a calming effect */
+    margin: 0; /* Remove default margin */
+    padding: 20px; /* Add padding around the content */
+}
+
+/* Style for the main heading */
+h1 {
+    color: #ff4500; /* Bright orange color for the heading */
+    font-size: 2.5em; /* Increase font size for emphasis */
+    margin: 20px 0; /* Add space above and below the heading */
+}
+
+/* Center container with maximum width */
+.container {
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add padding inside the container */
+    max-width: 800px; /* Limit the width for better readability */
+    background-color: #ffffff; /* White background for the container */
+    border-radius: 10px; /* Rounded corners for a softer look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Make videos responsive */
+video {
+    width: 100%; /* Full width for responsiveness */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Space below the video */
+    border: 1px solid #ddd; /* Light border for separation */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Make images responsive */
+img {
+    width: 100%; /* Full width for responsiveness */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Space below the image */
+    border: 1px solid #ddd; /* Light border for separation */
+    border-radius: 10px; /* Rounded corners */
+}
